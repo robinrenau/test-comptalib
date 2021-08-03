@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "buefy": "^0.9.8",
-    "gridsome": "^0.7.0"
+    "gridsome": "^0.7.0",
+    "lottie-vuejs": "^0.4.0"
   }
 }
