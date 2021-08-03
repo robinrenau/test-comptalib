@@ -6,11 +6,3 @@
     <site-footer></site-footer>
   </div>
 </template>
-
-<script>
-export default {
-  metaInfo: {
-    title: 'About us'
-  }
-}
-</script>

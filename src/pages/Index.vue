@@ -5,7 +5,7 @@
             <div class="container pb-20 px-3 mx-auto items-center">
                 <section class="container mx-auto pt-6">
                     <slot name="main-content" />
-                    test
+                    <g-link class="nav__link" to="/hero/">Cliquez ici pour voir le Hero </g-link>
                 </section>
             </div>
         </main>
