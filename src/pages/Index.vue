@@ -1,21 +1,16 @@
 <template>
-  <Layout>
-
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1>Hello, world!</h1>
-
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur excepturi labore tempore expedita, et iste tenetur suscipit explicabo! Dolores, aperiam non officia eos quod asperiores
-    </p>
-
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener">Gridsome Docs</a>
-      <a href="https://github.com/gridsome/gridsome" target="_blank" rel="noopener">GitHub</a>
-    </p>
-
-  </Layout>
+    <div id="app">
+        <site-header></site-header>
+        <main>
+            <div class="container pb-20 px-3 mx-auto items-center">
+                <section class="container mx-auto pt-6">
+                    <slot name="main-content" />
+                    test
+                </section>
+            </div>
+        </main>
+        <site-footer></site-footer>
+    </div>
 </template>
 
 <script>
@@ -29,5 +24,20 @@ export default {
 <style>
 .home-links a {
   margin-right: 1rem;
+}
+*{
+  margin:0;
+  padding:0;
+}
+body, html{height:100%;}
+
+body{
+text-align:center;
+}
+main{
+  max-width:1280px;
+  min-height:100%;
+  margin:0 auto;
+  position:relative;
 }
 </style>
